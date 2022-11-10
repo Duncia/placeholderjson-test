@@ -1,5 +1,7 @@
 import React from "react";
-
+/*Čia realiai vieno user'io lauką pasidarom.
+Paduodam objektą ir destructur darom id bei name.
+Tada jau įkeliam jo duomenis į grąžinamą tempalte. */
 export default function Box({ user }){
     const {id, name} = user;
     return (

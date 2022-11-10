@@ -8,5 +8,10 @@
         margin: 1rem;
         text-align: center;
         padding: 1rem;
+        cursor: pointer;
+        &:hover{
+            transform: scale(.95);
+            background-color: aqua;
+        }
     }
 }
